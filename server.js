@@ -9,7 +9,6 @@ import Cards from './dbCards.js';
 //api config
 const app=express();
 const port=process.env.PORT||5000;
-//const MONGO_URI='mongodb+srv://tinder:tinder@cluster0.y0bmv.mongodb.net/tinderdb?retryWrites=true&w=majority'
 //middleware
 app.use(express.json());
 app.use(cors());
